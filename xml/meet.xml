@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <meet>
+        <hotel>
+            <name></name>
+            <img>1267468_335962246547307_369425209_o.jpg</img>
+            <content></content>
+        </hotel>
+        <bride_and_groom>
+            <name>
+                Ben Chrisman &amp;amp; Margaret Young
+            </name>
+            <img>stuff.jpg</img>
+            <content>This is the content!</content>
+        </bride_and_groom>
+        <maids>
+            <maid>
+                <name>Kathleen Kroll</name>
+                <img></img>
+                <content></content>
+            </maid>
+            <maid>
+                <name>Jordan Hicks</name>
+                <img></img>
+                <content></content>
+            </maid>
+            <maid>
+                <name>Hope Grebner</name>
+                <img></img>
+                <content></content>
+            </maid>
+            <maid>
+                <name>Ashlee Sweeden</name>
+                <img></img>
+                <content></content>
+            </maid>
+        </maids>
+        <men>
+            <man>
+                <name>Kathleen Kroll</name>
+                <img></img>
+                <content></content>
+            </man>
+            <man>
+                <name>Jordan Hicks</name>
+                <img></img>
+                <content></content>
+            </man>
+            <man>
+                <name>Hope Grebner</name>
+                <img></img>
+                <content></content>
+            </man>
+            <man>
+                <name>Ashlee Sweeden</name>
+                <img></img>
+                <content></content>
+            </man>
+        </men>
+        </meet>

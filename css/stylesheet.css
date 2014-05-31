@@ -1,0 +1,262 @@
+/*
+ribbon - 968px
+body - 822px
+*/
+html {
+    background: url("../img/bg-html.svg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    background:url("../img/banner-taper-bg.gif") no-repeat top center;
+}
+
+h2,h3{
+    color:#960039;
+}
+h2{
+    font-size:2em;
+    margin:25px;
+    float:left;
+}
+h3{
+    font-size:1.2em;
+    margin:10px;
+    text-align: center;
+}
+#body{
+    width:822px;
+    margin:0px auto;
+    background:url("../img/body-bg.jpg") repeat-y;
+}
+#home-content{
+    width: 100%;
+}
+#home-banner{
+
+}
+#banner-header{
+    width:822px;
+    height:117px;
+    background:url("../img/banner-header.png");
+}
+#banner{
+    width:968px;
+    position:relative;
+    left:-73px;
+    background:url("../img/banner.png");
+}
+#banner-content{
+    width:822px;
+    margin:0px auto;
+}
+#banner-nav-left{
+    float:left;
+    width:175px;
+    height:250px;
+}
+#banner-counter{
+    float:left;
+    height:250px;
+    width:472px; /* 822 - 175 - 175 = 472 */
+    font-family: 'cast_ironregular',sans-serif ;
+}
+#banner-nav-right{
+    float:left;
+    height:250px;
+    width:175px;
+}
+.banner-nav-item{
+    width:140px;
+}
+#banner-footer{
+    width:822px;
+    height:116px;
+    background:url("../img/banner-footer.png");
+}
+#home-banner table{
+    width:100%;
+}
+#home-banner td
+{
+    text-align:right;
+}
+.menu-flag{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.menu-flag li{
+    width:140px;
+    height:145px;
+    margin-left:20px;
+    margin-top:-3px;
+    padding:0px;
+    float:left;
+    display:inline;
+    background:url('../img/menu-item-flag.png');
+    text-align: center;
+
+}
+.menu-flag a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.menu-flag li span{
+    display:block;
+    padding:40px 0px 0px 0px;
+    font-family: 'ringbearermedium', Fallback, sans-serif;
+    font-size:1.7em;
+    text-decoration: none;
+}
+.menu-flag li:hover{
+    margin-top:-13px;
+    background-position:bottom;
+    overflow: hidden;
+}
+.menu-flag:nth-child(even){
+    margin-left:21px;
+}
+.menu-flag li a{
+    margin: 0px; display: block; width: 100%; height: 100%;
+}
+
+.row{
+    margin:20px;
+}
+.row .picture{
+    position: relative;
+}
+.row .rand1{
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+}
+.row .rand2{
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+}
+.row .rand3{
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+}
+.row .rand4{
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+}
+.row .rand5{
+    -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+    transform: rotate(2deg);
+}
+.row .rand6{
+    -ms-transform: rotate(-2deg); /* IE 9 */
+    -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+    transform: rotate(-2deg);
+}
+.row .picture img, .map{
+    border: 10px solid #fff;
+    /*border-bottom: 45px solid #fff;*/
+    -webkit-box-shadow: 3px 3px 3px #777;
+    -moz-box-shadow: 3px 3px 3px #777;
+    box-shadow: 3px 3px 3px #777;
+}
+
+.row .picture img{
+    min-height: 225px;
+    min-width: 225px;
+    max-height: 275px;
+    max-width: 275px;
+}
+.row .content{
+    background-color: #FFE6C2;
+    margin-bottom: 40px;
+    max-width: 500px;
+    min-height: 250px;
+    min-width: 450px;
+}
+.row .content p{
+    margin: 0px 25px;
+    font-size:1.1em;
+}
+.hotel_map, .hotel_panel, .lodge_map, .lodge_panel{
+    margin:21px;
+}
+
+.hotel_map, .lodge_map {
+    width: 760px;
+    height: 500px;
+}
+
+.hotel_panel, .lodge_panel{
+    width: 780px;
+}
+
+.hotel_panel, .lodge_map{
+    float:right;
+}
+
+.lodge_panel, .hotel_map{
+    float:left;
+}
+
+.map_form, .hotel_map, .hotel_map, .lodge_map, .lodge_panel{
+    clear:both;
+}
+
+.adp, .adp table{
+    width:760px;
+    padding:10px;
+    background-color:#FFE6C2;
+    color:#960039;
+}
+
+.days_time{
+font-size:90pt;
+}
+.days_text{
+font-size:35pt;
+}
+.hours_time{
+font-size:45pt;
+}
+.hours_text{
+font-size:27pt;
+}
+.mins_time{
+    font-size:75pt;
+}
+.mins_text{
+    font-size:30pt;
+}
+.secs_time{
+    font-size:40pt;
+}
+.secs_text{
+    font-size:35pt;
+}
+.info_box{
+    clear:both;
+}
+.info_panel_left{
+    margin: 0 8pt 0 20px;
+    width: 461px;
+    float:left;
+}
+.info_panel_right{
+    margin: 0 20px 0 8px;
+    width: 300px;
+    float:right;
+}
+.paper_bg{
+    background-color:#FFE6C2;
+}
+
+.margin-top-bottom-10px{
+    margin:10px 0px;
+}
